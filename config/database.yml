@@ -1,0 +1,13 @@
+development: &development
+  encoding: unicode
+  adapter: postgresql
+  port: 5432
+  host: localhost
+  database: planning_de_garde_sample_app_development
+
+test:
+  encoding: unicode
+  adapter: postgresql
+  port: 5432
+  host: localhost
+  database: planning_de_garde_sample_app_test
