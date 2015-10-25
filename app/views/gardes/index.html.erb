@@ -1,0 +1,8 @@
+<div id='gardes_calendar'></div>
+
+<script type="text/javascript">
+  $('#gardes_calendar').fullCalendar({
+    eventSources: [{title: "gardes", url: '<%= gardes_path %>'}],
+  	contentHeight: 430
+  });
+</script>

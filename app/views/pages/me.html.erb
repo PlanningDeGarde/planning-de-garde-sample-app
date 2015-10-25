@@ -1,7 +1,0 @@
-<strong>Token:</strong> <%= current_user.token %><br />
-<strong>Gardes:</strong>
-<ul>
-  <% current_user.api_client.gardes.to_a.each do |garde| %>
-    <li><%= garde.started_on %></li>
-  <% end %>
-</ul>

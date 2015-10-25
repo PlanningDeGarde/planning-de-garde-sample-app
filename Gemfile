@@ -16,6 +16,7 @@ source 'https://rails-assets.org' do
 	gem 'rails-assets-jquery'
 	gem 'rails-assets-jquery-ujs'
 	gem 'rails-assets-bootstrap'
+	gem 'rails-assets-fullcalendar', '2.4.0'
 end
 
 gem 'sdoc', '~> 0.4.0', group: :doc
