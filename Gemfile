@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2.3'
+ruby '2.3.2'
 
 gem 'rails', '4.2.4'
 gem 'pg'
@@ -20,6 +20,8 @@ source 'https://rails-assets.org' do
 end
 
 gem 'sdoc', '~> 0.4.0', group: :doc
+
+gem 'nokogiri', '~> 1.6.8'
 
 # Server
 gem 'unicorn'
